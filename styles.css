@@ -1,0 +1,26 @@
+body {
+  background-color: lightblue;
+}
+
+h1 {
+  color: black;
+  text-align: center;
+}
+
+.navig {
+  border: 2px solid blue;
+  border-radius: 5px;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+
+#contact_table{
+	color: MediumSeaGreen;
+}
+
+tr{
+	border:2px dotted MediumSeaGreen;
+}
