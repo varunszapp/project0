@@ -1,5 +1,5 @@
 @media screen and (min-width: 500px) {
-  h1{
+  h1 {
   	color: red;
   	text-align: center;
   	font-family: verdana;
@@ -15,20 +15,16 @@
 
 
 @media screen and (max-width: 490px){
-  	h1{
+  	h1 {
   		color: green;
   		text-align: center;
   		font-family: verdana;
-  		font-size: 20px;
+  		font-size: 10px;
   	}
-	
- body {
-    background-color: lightblue;
-  }
 }
 
 a::before{
-	content: "\21d2";
+	content: "\2605";
 	font-weight: bold;
 }
 
