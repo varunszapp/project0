@@ -1,6 +1,6 @@
 @media (min-width: 500px) {
   h1::before{
-  	content: "Welcome to Dr. Sowdamini's Webpage!"
+  	content: "Welcome to Dr. Sowdamini's Webpage!";
   	color: black;
   	text-align: center;
   	font-family: verdana;
@@ -11,7 +11,7 @@
 
 @media (max-width: 490px){
   	h1::before{
-  		content: "Welcome!"
+  		content: "Welcome!";
   		color: black;
   		text-align: center;
   		font-family: verdana;
@@ -41,6 +41,7 @@ td::selection {
 
 #contact_table{
 	color: MediumSeaGreen;
+	font-family: Arial;
 }
 
 
