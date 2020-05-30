@@ -23,7 +23,7 @@
 }
 
 a::before{
-	content: "\2605";
+	content: "&#9771";
 	font-weight: bold;
 }
 
