@@ -1,8 +1,4 @@
 @media (min-width: 500px) {
-  body {
-    background-color: lightgreen;
-  }
-
   h1::before{
   	content: "Welcome to Dr. Sowdamini's Webpage!"
   	color: black;
@@ -14,10 +10,6 @@
 
 
 @media (max-width: 490px){
-	body {
-	  	background-color: lightblue;
-	}
-
   	h1::before{
   		content: "Welcome!"
   		color: black;
@@ -41,7 +33,7 @@ td::selection {
 .row > div{
 	padding: 20px;
 	background:-color : teal;
-	
+
   	border: 2px solid black;
   	border-radius: 5px;
 }
