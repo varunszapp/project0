@@ -1,25 +1,57 @@
-body {
-  background-color: lightblue;
+@media (min-width: 500px) {
+  body {
+    background-color: lightgreen;
+  }
+
+  h1::before{
+  	content: "Welcome to Dr. Sowdamini's Webpage!"
+  	color: black;
+  	text-align: center;
+  	font-family: verdana;
+  	font-size: 20px;
+  }
 }
 
-h1 {
-  color: black;
-  text-align: center;
+
+@media (max-width: 490px){
+	body {
+	  	background-color: lightblue;
+	}
+
+  	h1::before{
+  		content: "Welcome!"
+  		color: black;
+  		text-align: center;
+  		font-family: verdana;
+  		font-size: 20px;
+  	}
 }
 
-.navig {
-  border: 2px solid blue;
-  border-radius: 5px;
+a::before{
+	content: "\21d2";
+	font-weight: bold;
 }
 
-p {
-  font-family: verdana;
-  font-size: 20px;
+td::selection {
+	color : red;
+	background-color: yellow;
 }
+
+
+.row > div{
+	padding: 20px;
+	background:-color : teal;
+	
+  	border: 2px solid black;
+  	border-radius: 5px;
+}
+
 
 #contact_table{
 	color: MediumSeaGreen;
 }
+
+
 
 tr{
 	border:2px dotted MediumSeaGreen;
