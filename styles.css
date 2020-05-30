@@ -1,22 +1,30 @@
 @media screen and (min-width: 500px) {
-  h1::before{
-  	content: "Welcome to Dr. Sowdamini's Webpage!";
-  	color: black;
+  h1{
+  	color: red;
   	text-align: center;
   	font-family: verdana;
   	font-size: 20px;
   }
+
+	
+ body {
+    background-color: lightpink;
+  }
+
 }
 
 
 @media screen and (max-width: 490px){
-  	h1::before{
-  		content: "Welcome!";
-  		color: black;
+  	h1{
+  		color: green;
   		text-align: center;
   		font-family: verdana;
   		font-size: 20px;
   	}
+	
+ body {
+    background-color: lightblue;
+  }
 }
 
 a::before{
