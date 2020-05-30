@@ -1,0 +1,30 @@
+.success, .error, .info {
+  font-family: Helvetica;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: italic;
+  padding: 20px;
+  margin: 10px;
+  border: 1 px solid black; }
+
+.success {
+  background-color: green; }
+
+.error {
+  background-color: red; }
+
+.info {
+  background-color: yellow; }
+
+div p {
+  font-size: 18px;
+  text-align: center;
+  font-family: sans-serif; }
+div ol {
+  border: 2px solid black;
+  border-radius: 5px;
+  color: red; }
+div .pre-visit {
+  color: grey; }
+
+/*# sourceMappingURL=extra_styles.css.map */

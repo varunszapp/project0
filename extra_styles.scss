@@ -25,8 +25,8 @@
 
 
 
-$imp-color : red;
-$less-imp-color : grey;
+$color1 : red;
+$color2 : grey;
 
 div {
 	p{
@@ -38,11 +38,11 @@ div {
 	ol{
 		border: 2px solid black;
   		border-radius: 5px;
-  		color : $imp-color
+  		color : $color1
 	}
 
 	.pre-visit{
-		color: $less-imp-color;
+		color: $color2;
 	}
 }
 
